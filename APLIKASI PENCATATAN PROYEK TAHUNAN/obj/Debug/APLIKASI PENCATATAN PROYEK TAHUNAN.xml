@@ -1,0 +1,371 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+APLIKASI PENCATATAN PROYEK TAHUNAN
+</name>
+</assembly>
+<members>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.My.Resources.Resources._exit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.My.Resources.Resources.exit__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.My.Resources.Resources.icons8_group_of_projects_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.My.Resources.Resources.icons8_settings_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet.Kategori_proyekDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet.Kategori_proyekRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet.Kategori_proyekRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSetTableAdapters.Kategori_proyekTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSetTableAdapters.TableAdapterManager.UpdateAll(APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet1.Kategori_proyekDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet1.Kategori_proyekRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet1.Kategori_proyekRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet1TableAdapters.Kategori_proyekTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet1TableAdapters.TableAdapterManager.UpdateAll(APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet2.Jenis_perusahaanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet2.Jenis_perusahaanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet2.Jenis_perusahaanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet2TableAdapters.Jenis_perusahaanTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet2TableAdapters.TableAdapterManager.UpdateAll(APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet3.MemberDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet3.MemberRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet3.MemberRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet3TableAdapters.MemberTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet3TableAdapters.TableAdapterManager.UpdateAll(APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet4.ProyekDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet4.ProyekRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet4.ProyekRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet4TableAdapters.ProyekTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet4TableAdapters.TableAdapterManager.UpdateAll(APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:APLIKASI_PENCATATAN_PROYEK_TAHUNAN.APP_CATATAN_PROYEK_TAHUNANDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
